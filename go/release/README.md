@@ -1,7 +1,3 @@
-Certainly! Here's the updated README content with the mention of including the `goreleaser.yml` file in the root directory and updating it accordingly:
-
----
-
 # GoReleaser GitHub Actions Pipeline
 
 This GitHub Actions pipeline automates the release process for Go projects using [GoReleaser](https://goreleaser.com/). GoReleaser simplifies the process of building and releasing Go binaries for multiple platforms with various features such as generating release notes, creating Docker images, signing artifacts, and more.
