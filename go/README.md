@@ -6,6 +6,16 @@ This directory contains GitHub Actions workflow templates specifically tailored 
 
 The Go directory structure is organized as follows:
 
+```bash
+├── README.md
+├── pull-request
+│   ├── README.md
+│   └── build-and-test.yml
+└── release
+    ├── README.md
+    └── release.yml
+```
+
 - **README.md**: This file providing an overview of the Go workflows and their contents.
 - **pull-request**: Contains the workflow template for handling pull requests in Go projects. The `build-and-test.yml` file is the template for the pipeline.
 - **release**: Contains the workflow template for handling releases in Go projects. The `release.yml` file is the template for the pipeline.
